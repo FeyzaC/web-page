@@ -11,7 +11,7 @@
 
 .header{
     background-color: lightpink;
-    width: 100%;
+    width: 70%;
     height: 105px;
     display: flex;
     justify-content: space-between;
@@ -26,18 +26,57 @@
 ul{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 a{
     color: purple;
     text-decoration: none;
-    margin: 15px;
+    margin: 20px;
     /* box-shadow: 7px 7px 10px purple; */
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:hover{
     color: blue;
-    font-size: 18px;
+    font-size: 17px;
     text-decoration: underline;
     transition: ease-in 0.3s;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+.path{
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px purple, -7px -7px 10px purple;
+}
+
+.path:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+    box-shadow: 7px 7px 10px pink, -7px -7px 10px pink;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.main{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
 }
