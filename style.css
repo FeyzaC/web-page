@@ -16,4 +16,18 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 7px 7px 10px purple;
+    margin: auto;
+    text-align: center;
+    /* flex-wrap: wrap; */
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+    margin: 15px;
 }
