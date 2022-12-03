@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* transition: ease-in 0.5s; */
 }
 
 .logo{
@@ -15,10 +16,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 7px 7px 10px purple;
+    box-shadow: 7px 7px 10px purple, -7px -7px 10px purple;
     margin: auto;
-    text-align: center;
-    /* flex-wrap: wrap; */
+    padding: 15px;
+    /* text-align: center; */
+    flex-wrap: wrap;
 }
 
 ul{
@@ -30,4 +32,12 @@ a{
     color: purple;
     text-decoration: none;
     margin: 15px;
+    /* box-shadow: 7px 7px 10px purple; */
+}
+
+a:hover{
+    color: blue;
+    font-size: 18px;
+    text-decoration: underline;
+    transition: ease-in 0.3s;
 }
