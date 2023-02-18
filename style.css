@@ -1,30 +1,30 @@
 *{
     margin: 0;
     padding: 0;
-    /* transition: ease-in 0.5s; */
 }
 
 .logo{
-    width: 200px;
-    height: auto;
+    width: 170px;
+    height: 120px;
 }
 
 .header{
-    background-color: lightpink;
+    /* background-color: lightpink; */
     width: 70%;
-    height: 105px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 7px 7px 10px purple, -7px -7px 10px purple;
     margin: auto;
     padding: 15px;
-    /* text-align: center; */
     flex-wrap: wrap;
 }
 
 ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     flex-wrap: wrap;
 }
@@ -64,12 +64,11 @@ h1{
 }
 
 .container{
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
 }
 
 .main{
